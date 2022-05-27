@@ -4,7 +4,7 @@ describe("users - attribute", () => {
   it("should have monica as first user with complete attribute", async () => {
     let attribute = Object.keys(users[0]);
     
-    expect(users[0].name).toBe("Monica");
+    expect(users[0].name).toBe("Nova");
     expect(attribute.length).toBe(8);
     expect(attribute).toContain("name");
     expect(attribute).toContain("gender");
@@ -19,7 +19,7 @@ describe("users - attribute", () => {
   it("should have wendy as second user with complete attribute", async () => {
     let attribute = Object.keys(users[1]);
     
-    expect(users[1].name).toBe("Wendy");
+    expect(users[1].name).toBe("Novi");
     expect(attribute.length).toBe(8);
     expect(attribute).toContain("name");
     expect(attribute).toContain("gender");
